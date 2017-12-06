@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+* {
+  margin: 0;
+  /*border: 2px solid black;*/
+
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+header {
+  /*display: inline-block;*/
+  background-color: #76E4E8;
+  height: 70px;
+}
+.nav {
+  float: right;
+  margin-bottom: 50px;
+  /*padding: 30px;*/
+  vertical-align: middle;
+}
+.heroText {
+  margin-left: 554px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  font-weight: lighter;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: 5px solid #138DA9;
+  background-color: white;
+  color: #138DA9;
+  width: 150px;
+  height: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  padding: 1px;
+}
+li {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  color: ghostwhite;
+  padding: 20px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.dogPics {
+  border-radius: 50%;
+  border: 2px solid #76E4E8;
+  width: 200px;
+}
+.hero {
+  background-image: url("dog-party-assets/park.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+
+  /*position: absolute;*/
+
+}
+.heroDog {
+  /*position: absolute;*/
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid #76E4E8;
+
+}
+.heroes {
+  padding: 20px;
+  /*margin-bottom: 20px;*/
+}
+article {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  padding: 1rem;
+  vertical-align: top;
+}
+footer {
+  background-color: #138DA9;
+  height: 200px;
+  text-align: center;
+}
+.footerText {
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+}
+.socIcons {
+  margin-bottom: 20px;
+  margin-right: 40px;
+  display: block;
+}
+p {
+  width: 300px;
+  margin-left: 60px;
+  font-family: 'Raleway', sans-serif;
+
+}
